@@ -1,0 +1,75 @@
+
+ { 
+  background-color: silver;
+  font-size: 30 px;
+}
+
+#navbar {
+  position: fixed;
+}
+
+#navbar :hover {
+  color: purple(189, 201, 201);
+
+}
+
+.btn :hover {
+
+  background: rgba(87, 6, 194, 0.267);
+  color: rgb(53, 15, 75);
+}
+
+#img-div {
+  background-color: grey;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.subti {
+  font-family: fantasy;
+  
+}
+
+.lista2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subti2 {
+  font-family: fantasy;
+}
+
+.parrafo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 22px;
+  backdrop-filter: grey;
+  
+}
+
+.footer {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(207, 37, 193) !important;
+  font-family: verdana;
+  font-weight: bold;
+  ;
+}
